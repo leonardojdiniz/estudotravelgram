@@ -1,0 +1,23 @@
+footer{
+
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+
+}
+
+footer p{
+    color: var(--text-color-secondary);
+    font: var(--text-md);
+}
+
+footer .links{
+    display: flex;
+    gap: 16px;
+}
+
+footer .links a{
+    color: var(--text-color-secondary);
+    font: var(--text-md);
+    padding: 4px;
+}

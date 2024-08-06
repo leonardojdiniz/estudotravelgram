@@ -1,0 +1,62 @@
+header {
+
+    display: flex;
+    padding-block: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.profile img{
+    height: 176px;
+    width: 176px;
+}
+
+header ul{
+    display: inline;
+    list-style: none;
+
+}
+
+.description{
+    width: 384px;
+}
+
+.description h1{
+    color: var(--text-color-primary);
+    font: var(--text-lg)
+}
+
+.description p{
+    color: var(--text-color-secondary);
+    font: var(--text-md);
+    margin-top: 8px;
+
+}
+
+.info{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+
+}
+
+.info li {
+    font: var(--text-md);
+    color: var(--text-color-secondary);
+    display: flex;
+
+    gap: 8px;
+    align-content: center;
+    
+}
+
+
+
